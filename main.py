@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pandas as pd
 
 # ouvrir le fichier CSV dans un DataFrame
@@ -50,12 +49,3 @@ dernieres_colonnes = df.iloc[:, -3:]
 
 # afficher le résultat
 print(dernieres_colonnes)
-
-matchs = []
-# afficher le résultat
-=======
-import numpy as np
-import pandas as pd
-filename = "Lol_matchs.csv"
-dataframe = pd.read_csv(filename,sep=";")
->>>>>>> origin/main
